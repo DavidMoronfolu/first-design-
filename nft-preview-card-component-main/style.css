@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    
+  /* width: 100%; */
+}
+.size{ font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+      /* min-height: 100vh; */
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  
+}
+.main{background: hsl(216, 50%, 16%);
+      
+  padding: 20px;
+     border-radius: 15px;
+   color: white;
+   margin: 50px auto;
+width: 30%;
+   
+
+}
+
+.image{
+  position: relative;
+          border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.image>img {
+  width: 100%;
+       display: block;
+}
+
+
+h2 {
+       margin: 15px 0;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.words {
+        color: hsl(215, 51%, 70%);
+  margin-bottom: 15px;
+  padding: 6px;
+}
+
+.other{
+  display: flex;
+      justify-content: space-between;
+}
+
+.din{
+  color: hsl(178, 100%, 50%);
+   display: flex;
+  align-items: center;
+       gap: 5px;
+}
+
+.time {
+      color: hsl(215, 51%, 70%);
+  display: flex;
+ align-items: center;
+  gap: 5px;
+}
+
+ 
+hr {
+            border: 1px solid hsl(215, 32%, 27%);
+           
+
+}
+
+.creator {
+            display: flex;
+            padding: 7px;
+     align-items: center;
+
+}
+
+.creator>img {
+  width: 30px;
+        border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creator span {
+    color: white;
+}
+.xe{
+  color:  hsl(215, 51%, 70%);
+}
+.other{
+  padding-bottom: 15px;
+}
+.ttt{
+  color: hsl(178, 100%, 50%);
+}
+
+
+
+
+@media screen and (max-width: 850px) {.main{width: 55%;}
+  
+}
+@media screen and (max-width: 425px) {.main
+{width: 70%;}}
