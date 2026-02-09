@@ -6,7 +6,7 @@
 
 body {
     
-  /* width: 100%; */
+  /* width: 100%;   */
 }
 .size{ font-family: 'Outfit', sans-serif;
   background-color: hsl(217, 54%, 11%);
@@ -111,4 +111,4 @@ hr {
   
 }
 @media screen and (max-width: 425px) {.main
-{width: 70%;}}
+{width: 80%;}}
