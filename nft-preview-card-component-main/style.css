@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+body {background: hsl(216, 50%, 16%);
+      
     
   /* width: 100%;   */
 }
@@ -111,4 +112,4 @@ hr {
   
 }
 @media screen and (max-width: 425px) {.main
-{width: 80%;}}
+{width: 80%;}} 
